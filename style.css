@@ -1,0 +1,46 @@
+body {
+  background-color: pink;
+}
+#calculator {
+  display: flex;
+  width: 400px;
+  height: 600px;
+  flex-direction: column;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+#display {
+  width: 90%;
+  height: 15%;
+  background-color: white;
+  align-items: center;
+  margin: 5%;
+  border: 1px solid black;
+}
+
+#display div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 36px;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#button-container button {
+  width: 20%;
+  height: 15%;
+  margin: 2.5%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
